@@ -276,6 +276,8 @@ footer {
   border-top: 1px solid black;
   margin-top: 45px;
   padding-top: 40px;
+  padding-bottom: 40px;
+
 }
 
 .services-content .topic-box {
@@ -287,16 +289,31 @@ footer {
   border: 1px solid black;
   margin: 15px;
   padding: 15px;
+  background: snow;
+}
+
+.services-content .content-box button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
 }
 .services-content .content-box button:hover {
   background: black;
   color: white;
+  padding-left: 
 } 
 
 .bottom-content {
-  border-top: 1px solid black;
-  
+  border-top: 2px solid black;
+  padding-top: 40px;
 }
+
+
 
 
 

@@ -277,7 +277,9 @@ footer {
   margin-top: 45px;
   padding-top: 40px;
   padding-bottom: 40px;
-
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 1.5; 
 }
 
 .services-content .topic-box {
@@ -309,9 +311,24 @@ footer {
 } 
 
 .bottom-content {
-  border-top: 2px solid black;
   padding-top: 40px;
+  border-top: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 1.5; 
 }
+
+.bottom-content ul li {
+  list-style: square;
+  padding: 5px;
+}
+
+.bottom-content .bottom-content-text{
+  width: 400px;
+}
+
+
 
 
 
